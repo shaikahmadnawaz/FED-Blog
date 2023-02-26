@@ -10,7 +10,7 @@
 .login,
 .addon {
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 80px);
   align-items: center;
   justify-content: center;
   font-size: 3rem;

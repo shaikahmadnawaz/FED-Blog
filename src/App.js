@@ -19,9 +19,8 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-
-          <Route path="addon1" exact element={<AddOn />} />
-          <Route path="addon2" exact element={<AddOn />} />
+          <Route path="/addon1" exact element={<AddOn />} />
+          <Route path="/addon2" exact element={<AddOn />} />
           <Route path="/map" exact element={<Map />} />
         </Routes>
         <Footer />

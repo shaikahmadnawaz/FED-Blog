@@ -14,6 +14,7 @@ const Map = () => {
 
       <h2>Syntax </h2>
       <h3>array.map(function(currentValue, index, arr), thisValue)</h3>
+      <code>Hello</code>
     </div>
   );
 };
